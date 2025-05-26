@@ -1,5 +1,6 @@
- pandas
- streamlit
- matplotlib
- seaborn
- openpyxl
+pandas
+streamlit
+matplotlib
+seaborn
+openpyxl
+psycopg2-binary
