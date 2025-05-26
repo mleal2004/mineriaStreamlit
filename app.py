@@ -12,7 +12,7 @@ st.title("Análisis Exploratorio de Datos")
 
 # Cargar archivo CSV
 try:
-    data = pd.read_csv("https://www.datos.gov.co/resource/wc86-9j4a.csv")
+    data = pd.read_csv("https://raw.githubusercontent.com/mleal2004/mineriaStreamlit/refs/heads/main/dataset.csv")
     st.success("¡Archivo cargado con éxito!")
 except Exception as e:
     st.error(f"Error al cargar el archivo: {e}")
